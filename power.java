@@ -10,6 +10,7 @@ public class power {
     int x = sc.nextInt();
     int y = sc.nextInt();
     System.out.println(multiply(x, y));
+    System.out.println("Successfull");
 
   
     
