@@ -19,7 +19,7 @@ public class ColumSum {
     for(int i=0; i<c;i++){
          int Sum =0;
         for(int j=0;j<r;j++){
-           Sum+=matrix[i][j];
+           Sum+=matrix[j][i];
         }
         System.out.println("The Colum sum is :"+Sum);
        
