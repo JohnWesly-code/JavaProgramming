@@ -15,7 +15,7 @@ public class GoatLatin {
                word = word+ch;
             }
             if(ch ==' '||i == str.length()-1){
-                char firstLetter = str.charAt(0);
+                char firstLetter = word.charAt(0);
                 boolean vowel = (firstLetter=='a'||firstLetter=='e'||firstLetter=='i'||firstLetter=='o'||firstLetter=='u'|| firstLetter=='A'||firstLetter=='E'||(firstLetter=='I')||(firstLetter=='O')||(firstLetter=='U'));
                  if(vowel){
                     System.out.print(word + "m");
